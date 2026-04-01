@@ -1,0 +1,80 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+/* Custom EWUESPC themes */
+@plugin "daisyui/theme" {
+  /* themes: light --default, dark --prefersdark; */
+
+  name: "ewuesc-dark";
+  default: true;
+  prefersdark: true;
+  color-scheme: dark;
+
+  --color-primary: #dc2626;
+  --color-secondary: #7c3aed;
+  --color-accent: #06b6d4;
+  --color-neutral: #111827;
+  --color-base-100: #0b0f19;
+  --color-base-200: #111827;
+  --color-base-300: #1f2937;
+  --color-base-content: #f3f4f6;
+  --color-info: #38bdf8;
+  --color-success: #22c55e;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+
+  --radius-box: 1rem;
+  --radius-btn: 0.75rem;
+  --radius-badge: 1rem;
+}
+
+@plugin "daisyui/theme" {
+  name: "ewuesc-light";
+  color-scheme: light;
+
+  --color-primary: #b91c1c;
+  --color-secondary: #6d28d9;
+  --color-accent: #0891b2;
+  --color-neutral: #1f2937;
+  --color-base-100: #ffffff;
+  --color-base-200: #f8fafc;
+  --color-base-300: #e5e7eb;
+  --color-base-content: #111827;
+  --color-info: #0284c7;
+  --color-success: #16a34a;
+  --color-warning: #d97706;
+  --color-error: #dc2626;
+
+  --radius-box: 1rem;
+  --radius-btn: 0.75rem;
+  --radius-badge: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+::selection {
+  background: #dc2626;
+  color: white;
+}
+
+.glow-text {
+  text-shadow: 0 0 10px rgba(220, 38, 38, 0.4);
+}
+
+.glow-border {
+  box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.25),
+    0 0 20px rgba(220, 38, 38, 0.12);
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
