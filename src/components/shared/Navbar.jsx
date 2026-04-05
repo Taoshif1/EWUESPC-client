@@ -13,7 +13,9 @@ export const Navbar = () => {
       <li>
         <NavLink to="/events">Events</NavLink>
       </li>
-      <li to="/tournaments">Tournaments</li>
+      <li>
+        <NavLink to="/tournaments">Tournaments</NavLink>
+      </li>
       {/* <li>
         <NavLink to="/teams">Teams</NavLink>
       </li>
