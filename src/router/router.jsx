@@ -3,6 +3,7 @@ import { MainLayout } from "../layouts/MainLayout";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Events from "../pages/Events";
+import Tournament from "../pages/Tournament";
 import NotFound from "../pages/NotFound";
 
 export const router = createBrowserRouter([
