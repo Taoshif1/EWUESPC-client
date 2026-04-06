@@ -61,7 +61,12 @@ client
 ├─ README.md
 ├─ src
 │  ├─ assets
+│  │  ├─ gameVdo1.mp4
+│  │  ├─ gamevdo2.mp4
+│  │  └─ gameVdo3.mp4
 │  ├─ components
+│  │  ├─ home
+│  │  │  └─ HeroCarousel.jsx
 │  │  └─ shared
 │  │     ├─ Footer.jsx
 │  │     ├─ Navbar.jsx
@@ -74,13 +79,14 @@ client
 │  │  ├─ About.jsx
 │  │  ├─ Events.jsx
 │  │  ├─ Home.jsx
-│  │  └─ NotFound.jsx
+│  │  ├─ NotFound.jsx
+│  │  └─ Tournament.jsx
 │  └─ router
 │     └─ router.jsx
+├─ vercel.json
 └─ vite.config.js
 
 ```
-
 ---
 
 ## ✨ Features Implemented So Far

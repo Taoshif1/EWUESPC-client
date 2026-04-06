@@ -4,7 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 import gameVdo1 from "../../assets/gameVdo1.mp4";
-import gameVdo2 from "../../assets/gameVdo2.mp4";
+import gameVdo2 from "../../assets/gamevdo2.mp4";
 import gameVdo3 from "../../assets/gameVdo3.mp4";
 
 const slides = [

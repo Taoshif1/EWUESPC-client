@@ -23,8 +23,8 @@ export const router = createBrowserRouter([
         path: "events",
         Component: Events,
       },
-            {
-        path: "tournaments", 
+      {
+        path: "tournaments",
         Component: Tournament,
       },
     ],
