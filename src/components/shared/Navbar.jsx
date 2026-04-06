@@ -5,43 +5,58 @@ export const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive ? "text-primary font-semibold" : ""
+          }
+        >
+          Home
+        </NavLink>
       </li>
+
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive ? "text-primary font-semibold" : ""
+          }
+        >
+          About
+        </NavLink>
       </li>
+
       <li>
-        <NavLink to="/events">Events</NavLink>
+        <NavLink
+          to="/events"
+          className={({ isActive }) =>
+            isActive ? "text-primary font-semibold" : ""
+          }
+        >
+          Events
+        </NavLink>
       </li>
-      {/* <li>
-        <NavLink to="/teams">Teams</NavLink>
-      </li>
-      <li>
-        <NavLink to="/gallery">Gallery</NavLink>
-      </li>
-      <li>
-        <NavLink to="/contact">Contact</NavLink>
-      </li> */}
     </>
   );
 
   return (
-    <div className="navbar fixed top-0 z-50 border-b border-white/10 bg-base-100/80 px-4 backdrop-blur-lg">
+    <div className="navbar fixed top-0 z-50 border-b border-white/10 bg-base-100/70 px-4 backdrop-blur-xl">
       <div className="navbar-start">
         <div className="dropdown">
           <button tabIndex={0} className="btn btn-ghost lg:hidden">
             ☰
           </button>
+
           <ul
             tabIndex={0}
-            className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-box bg-base-200 p-2 shadow"
+            className="menu dropdown-content menu-sm z-[1] mt-3 w-52 rounded-2xl border border-white/10 bg-base-200 p-2 shadow-xl"
           >
             {navLinks}
           </ul>
         </div>
 
         <Link to="/" className="text-xl font-black tracking-wide">
-          EWUESC
+          EWUESPC
         </Link>
       </div>
 
@@ -51,7 +66,7 @@ export const Navbar = () => {
 
       <div className="navbar-end gap-2">
         <ThemeToggle />
-        <Link to="/join-club" className="btn btn-primary rounded-xl">
+        <Link to="/about" className="btn btn-primary rounded-xl px-5">
           Join Club
         </Link>
       </div>

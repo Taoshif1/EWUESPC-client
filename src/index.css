@@ -78,3 +78,16 @@ body {
   backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
+body {
+  overflow-x: hidden;
+}
+
+.hero-overlay-glow {
+  background: radial-gradient(
+    circle at center,
+    rgba(220, 38, 38, 0.18) 0%,
+    rgba(124, 58, 237, 0.12) 30%,
+    rgba(6, 182, 212, 0.08) 55%,
+    transparent 75%
+  );
+}
