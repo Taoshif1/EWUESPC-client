@@ -36,6 +36,16 @@ export const Navbar = () => {
           Events
         </NavLink>
       </li>
+      <li>
+        <NavLink
+          to="/tournaments"
+          className={({ isActive }) =>
+            isActive ? "text-primary font-semibold" : ""
+          }
+        >
+          Tournaments
+        </NavLink>
+      </li>
     </>
   );
 
