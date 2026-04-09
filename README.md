@@ -207,6 +207,11 @@ CSE Student | MERN Stack Developer | Tech Entrepreneur
 
 ---
 
+Developed by **MD SIRAJUL ISLAM**  
+CSE Student | FULL Stack Web Developer
+
+---
+
 ## 📌 Status
 
 > 🚧 Currently in active frontend development phase.
